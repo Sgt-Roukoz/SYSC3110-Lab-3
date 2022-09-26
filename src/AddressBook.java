@@ -19,6 +19,11 @@ public class AddressBook {
         buddies.remove(buddy);
     }
 
+    public void testMethod()
+    {
+        System.out.println("Test Method for Branches");
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Jack", "Carleton", "613");
         AddressBook addressBook = new AddressBook();
